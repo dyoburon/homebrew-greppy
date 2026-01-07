@@ -10,8 +10,10 @@ class Greppy < Formula
   depends_on "python@3.11"
 
   def install
-    venv = virtualenv_create(libexec, "python3.11")
-    venv.pip_install buildpath
+    python3 = Formula["python@3.11"].opt_bin/"python3.11"
+    system python3, "-m", "venv", libexec
+    system libexec/"bin/pip", "install", "--upgrade", "pip"
+    system libexec/"bin/pip", "install", buildpath
     bin.install_symlink libexec/"bin/greppy"
   end
 
