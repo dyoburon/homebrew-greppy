@@ -11,7 +11,8 @@ class Greppy < Formula
 
   def install
     virtualenv_create(libexec, "python3.11")
-    system libexec/"bin/pip", "install", "."
+    system libexec/"bin/pip", "install", buildpath
+    (bin/"greppy").write_env_script libexec/"bin/greppy", PATH: "#{libexec}/bin:$PATH"
   end
 
   test do
