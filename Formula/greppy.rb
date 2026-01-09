@@ -3,8 +3,8 @@ class Greppy < Formula
 
   desc "Semantic code search CLI using ChromaDB + Ollama"
   homepage "https://github.com/dyoburon/greppy"
-  url "https://github.com/dyoburon/greppy/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "7d853aa960d953da1647c8717c90b14e5068eea52dace10b606b6364825179d1"
+  url "https://github.com/dyoburon/greppy/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "160ffc0fba99c8c98406fdfcad8c584ec8eb710ee69e222d9abf0f92f4791726"
   license "MIT"
 
   depends_on "python@3.11"
