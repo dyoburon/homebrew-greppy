@@ -3,8 +3,8 @@ class Greppy < Formula
 
   desc "Semantic code search CLI using ChromaDB + sentence-transformers"
   homepage "https://github.com/dyoburon/greppy"
-  url "https://github.com/dyoburon/greppy/archive/refs/tags/v0.5.4.tar.gz"
-  sha256 "4b0f765d5f71e394647f3111302246e08be937a9d11277aaae9db6cf72a5dc78"
+  url "https://github.com/dyoburon/greppy/archive/refs/tags/v0.5.5.tar.gz"
+  sha256 "7b19d93ba2913ccb12178d1d668a3b33bdabf7f0beea6028119027209bd4a90d"
   license "MIT"
 
   depends_on "python@3.12"
