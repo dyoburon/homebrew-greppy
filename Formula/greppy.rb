@@ -1,10 +1,10 @@
 class Greppy < Formula
   include Language::Python::Virtualenv
 
-  desc "Semantic code search CLI using ChromaDB + CodeRankEmbed"
+  desc "Semantic code search CLI using ChromaDB + sentence-transformers"
   homepage "https://github.com/dyoburon/greppy"
-  url "https://github.com/dyoburon/greppy/archive/refs/tags/v0.5.3.tar.gz"
-  sha256 "1a8f1af166e95ef9b65ea1d7b6033f19a030bcc8bab2394ba2a253ad7e8908d8"
+  url "https://github.com/dyoburon/greppy/archive/refs/tags/v0.5.4.tar.gz"
+  sha256 "4b0f765d5f71e394647f3111302246e08be937a9d11277aaae9db6cf72a5dc78"
   license "MIT"
 
   depends_on "python@3.12"
